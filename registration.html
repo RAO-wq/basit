@@ -1,0 +1,194 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+   <link rel="stylesheet" href="mystyle.css">
+
+</head>
+<body>
+    
+
+     
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Online Patient Treatment</a>
+      </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="index.html">Home</a></li>
+       
+  
+  
+  
+  
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">About <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#"></a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="Online medecal.html">Online Medicine Purchase</a></li>
+             </ul>
+        </li>
+  
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">covid-19 updates <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#"></a></li>
+            <li><a href="World.html">World Cases</a></li>
+            <li><a href="pak.html">Pakistan Cases</a></li>
+            <li><a href="sin.html">Sindh Cases</a></li>
+            <li><a href="pun.html">Punjab Cases</a></li>
+            <li><a href="kgil.html">Gilgit-Balstian Cases</a></li>
+            <li><a href="kpk.html">KPK Cases</a></li>
+            <li><a href="bal.html">Balochistan Cases</a></li>
+        
+           
+  
+          </ul>
+        </li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="registration.html"> Registration</a></li>
+        <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+     
+    </div>
+  </nav>
+  
+            <div class="container ">
+                
+
+<div class="form-horizontal list-group-item-danger center-block">
+
+<form action="/Patient/RegistrationOpd" method="post"><input name="__RequestVerificationToken" type="hidden" value="e6MEHCSIs4CmjZfLJkY19Q41JmwiS7qh-TBcFKXiwY4fxQUPjK1zOkpyZzpZWq9oIuJ2EKtou2PCHg955QAGCE7Pn-Sf2YU6Jnl0auYQyh01" />        <div class="form-horizontal list-group-item-danger center-block">
+            <h4 class="btn-group-justified btn btn-success">RegistrationOPD</h4>
+            <hr />
+            
+            <div class="form-group">
+                <label class="control-label col-md-2" for="opdiad">OPD</label>
+                <div class="col-md-3">
+                    <input class="form-control " data-val="true" data-val-number="The field OPD must be a number." data-val-required="OPD is required" id="opdiad" name="opdiad" type="number" value="" />
+                    <span class="field-validation-valid text-danger" data-valmsg-for="opdiad" data-valmsg-replace="true"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-md-2" for="name">Name</label>
+                <div class="col-md-3">
+                    <input class="form-control " data-val="true" data-val-required="Name is required" id="name" name="name" type="text" value="" />
+                    <span class="field-validation-valid text-danger" data-valmsg-for="name" data-valmsg-replace="true"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-md-2" for="Number">Number</label>
+                <div class="col-md-3">
+                    <input class="form-control text-box single-line" data-val="true" data-val-required="Number is required" id="Number" name="Number" type="text" value="" />
+                    <span class="field-validation-valid text-danger" data-valmsg-for="Number" data-valmsg-replace="true"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-md-2" for="contact_address">Contact Address</label>
+                <div class="col-md-3">
+                    <input class="form-control text-box single-line" data-val="true" data-val-required="Contact Address is required" id="contact_address" name="contact_address" type="text" value="" />
+                    <span class="field-validation-valid text-danger" data-valmsg-for="contact_address" data-valmsg-replace="true"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-md-2" for="date">Date </label>
+                <div class="col-md-3">
+                    <input class="form-control text-box single-line" data-val="true" data-val-required="Date  is required" id="date" name="date" type="date" value="" />
+                    <span class="field-validation-valid text-danger" data-valmsg-for="date" data-valmsg-replace="true"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-md-2" for="sex"> Gender</label>
+                <div class="col-md-3">
+                    <select class="form-control" data-val="true" data-val-required="Gender  is required" id="sex" name="sex"><option value="">Select Choise</option>
+<option>Male</option>
+<option>Female</option>
+<option>Other</option>
+</select>
+
+                    <span class="field-validation-valid text-danger" data-valmsg-for="sex" data-valmsg-replace="true"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-md-2" for="age"> Age</label>
+                <div class="col-md-3">
+                    <input class="form-control text-box single-line" data-val="true" data-val-number="The field  Age must be a number." data-val-required="Age  is required" id="age" name="age" type="number" value="" />
+                    <span class="field-validation-valid text-danger" data-valmsg-for="age" data-valmsg-replace="true"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-md-2" for="department"> Department</label>
+                <div class="col-md-3">
+
+
+                    <select class="form-control" data-val="true" data-val-required="Department  is required" id="department" name="department"><option value="">Select Choise</option>
+<option>Sugar</option>
+<option>Surgery</option>
+<option>fever</option>
+</select>
+                    <span class="field-validation-valid text-danger" data-valmsg-for="department" data-valmsg-replace="true"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="REGISTER" class="btn btn-success" />
+                </div>
+            </div>
+        </div>
+</form>
+   
+
+
+                <hr />
+
+            </div>
+
+          
+            <br>
+
+            
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid text-l">
+      <div class="navbar-footer text-info  ">
+  
+        <h3 class="useful">Useful Links  </h3>    
+       
+         <b class="text-gray">Connect With Us </b>  <br> <br>
+               <a href="#">  
+               <img  src="images/fb.jpg" style="width:20px;"/>  
+             </a>
+             <a class="twitter" href="#"  >  
+                   <img class="twitter" src="images/twitter.png" style="width:20px;" /> 
+           </a> 
+       
+               <a href="#">
+                   <img class="youtube" src="images/youtube.png" style="width:20px;"/>  
+                 </a> 
+                 <a href="#">
+                    <img class="whatapp" src="images/whatapp.png" style="width:20px;"/>  
+                   </a>
+      
+  
+        </div>
+        </div>
+  </nav>
+      
+    
+</body>
+</html>

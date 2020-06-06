@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> - My ASP.NET Application</title>
+    <link href="/Content/bootstrap.css" rel="stylesheet"/>
+<link href="/Content/site.css" rel="stylesheet"/>
+
+    <script src="/Scripts/modernizr-2.8.3.js"></script>
+
+
+</head>
+<body>
+    <div class="dropdown">
+        <nav>
+            <div class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="/">Home</a>
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a href="/About">About</a>
+
+                                <ul>
+                                    <li><a href="/About/OPD">OPD Result</a></li>
+                                    <li><a href="/About/IPD">IPD Result</a></li>
+                                    <li><a href="/About/ListOfMedical"> Online Medicine</a></li>
+                                </ul>
+
+                            </li>
+                            <li><a href="/Contact">Contact</a></li>
+                            <li>
+                                <a href="/Login">Registration</a>
+
+                                <ul>
+
+                                    <li><a href="/Login/Admin">Hospital Employee</a></li>
+                                    <li><a href="/Patient/RegistrationOpd">Patient</a></li>
+
+
+
+                                </ul>
+
+                            </li>
+
+                            <li>
+
+                            </li>
+                            <li>
+
+
+                               
+
+
+
+
+
+
+                                </li>
+                        </ul>
+                    </div>
+                </div>
+            </div></nav></div>
+            <div class="container body-content">
+                
+
+<div class="form-horizontal list-group-item-danger center-block">
+    <h4 class="btn-group-justified btn btn-success">Online Medical Store</h4>
+    <hr />
+
+
+    <table class="table">
+        <tr class="alert-info">
+            <th>
+                Medicine 
+            </th>
+            <th>
+                Price 
+            </th>
+            <th>
+                Images
+            </th>
+            <th></th>
+        </tr>
+
+            <tr>
+                <td>
+                    Brufen 400mg 10 Tablets
+                </td>
+                <td>
+                    30
+                </td>
+                <td>
+                    <img src="/images/brufenstbl.jpg" height="100" width="100" />
+                </td>
+                <td>
+                    <a href='/About/Purchase' class="btn btn-success">
+                        Click To Purchase
+                    </a>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    Disprin
+                </td>
+                <td>
+                    289
+                </td>
+                <td>
+                    <img src="/images/Disprin.jpg" height="100" width="100" />
+                </td>
+                <td>
+                    <a href='/About/Purchase' class="btn btn-success">
+                        Click To Purchase
+                    </a>
+                </td>
+
+            </tr>
+
+    </table>
+</div>
+                <hr />
+
+            </div>
+
+            <script src="/Scripts/jquery-3.4.1.js"></script>
+
+            <script src="/Scripts/bootstrap.js"></script>
+
+            
+</body>
+</html>
